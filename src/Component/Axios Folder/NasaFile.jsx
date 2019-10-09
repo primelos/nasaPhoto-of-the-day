@@ -5,9 +5,9 @@ import NasaCard from './NasaCard'
 
 const NasaFile = () => {
     const [nasa, setNasa] = useState([])
-    let nasaKey = `JGYKNM6h2ZRuzKYCFlKHU3q8PovytMseIoTGK5h0`
-    let pullData = `https://api.nasa.gov/planetary/apod?api_key=${nasaKey}`
-    
+    // let nasaKey = `JGYKNM6h2ZRuzKYCFlKHU3q8PovytMseIoTGK5h0`
+    // let pullData = `https://api.nasa.gov/planetary/apod?api_key=${nasaKey}`
+       let pullData = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2019-10-09`
 
     useEffect(() => {
         axios.get(pullData)
