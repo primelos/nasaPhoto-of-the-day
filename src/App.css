@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -30,4 +31,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.card{
+  background: linear-gradient(to bottom, #c5c5c5 0%, #131212 53%);
+}
+.para{
+  color: seashell;
+  font-size: 20px
+}
+.title{
+  font-size: 30px;
 }
